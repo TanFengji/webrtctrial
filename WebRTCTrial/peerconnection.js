@@ -1,4 +1,5 @@
 var Indicator = require('./Indicator');
+var socket = io('http://localhost:8080');
 
 function PeerConnection(local, peer){
 	var yourVideo;

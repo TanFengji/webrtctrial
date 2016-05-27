@@ -1,4 +1,5 @@
 var PeerConnection = require('./PeerConnection');
+var socket = io('http://localhost:8080');
 
 function AllConnection(){
 	var local;

@@ -1,6 +1,6 @@
 //var io = require('./node_modules/socket.io/node_modules/socket.io-client/socket.io.js');
-var socket = io('http://localhost:8080');
 var AllConnection = require('./AllConnection');
+var socket = io('http://localhost:8080');
 
 function WebRTC(){
 	var self = this;
